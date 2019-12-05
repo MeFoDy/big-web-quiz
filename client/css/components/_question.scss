@@ -216,6 +216,11 @@
     min-width: 260px;
     max-width: 680px;
     margin: 0 auto;
+    // no cheating
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   &__answer-container {
