@@ -72,7 +72,7 @@ export default class LeaderboardToggle extends BoundComponent {
             checked={checked}
             disabled={leaderboardPending}
           />
-          <span class="leaderboard-toggle__description">Appear on leaderboard</span>
+          <span class="leaderboard-toggle__description">Показывать меня в лидерах</span>
         </label>
       </form>
     );

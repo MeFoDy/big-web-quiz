@@ -53,7 +53,7 @@ const links = [
 
 export default () => (
   <div class="end-screen">
-    Thanks for playing! Here are some links:
+    Спасибо за игру! Несколько полезных ссылок:
     <ul class="end-screen__list">
       {links.map(([text, href]) =>
         <li class="end-screen__list-item">

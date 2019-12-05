@@ -31,7 +31,7 @@ export default class Code extends BoundComponent {
     Prism.highlightElement(this.pre);
     
     const span = document.createElement('span');
-    span.textContent = 'NO CHEATING';
+    span.textContent = 'НЕ МУХЛЕВАТЬ';
     span.style.position = 'absolute';
     span.style.width = '1px';
     span.style.height = '1px';

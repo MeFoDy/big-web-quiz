@@ -23,9 +23,9 @@ export default class QuestionWaiting extends BoundComponent {
     return (
       <div class="question-waiting">
         <div class="your-score">
-          <div class="your-score__title">Your score:</div>
+          <div class="your-score__title">Ваш счёт:</div>
           <div class="your-score__value">{user.score}</div>
-          <p class="message">Waiting for a question</p>
+          <p class="message">В ожидании вопроса</p>
         </div>
 
         {!server &&
@@ -37,7 +37,7 @@ export default class QuestionWaiting extends BoundComponent {
             <div class="question-waiting__leaderboard-preview">
               <div class="question-waiting__leaderboard-preview-items">
                 <p class="question-waiting__leaderboard-preview-description">
-                  Your details will show as:
+                  Ваше имя покажется как:
                 </p>
 
                 <div class="question-waiting__leaderboard-preview-user-details">
@@ -59,5 +59,5 @@ export default class QuestionWaiting extends BoundComponent {
 }
 
 QuestionWaiting.defaultProps = {
-  onUserUpdate: function() {}
+  onUserUpdate() {}
 };

@@ -26,7 +26,7 @@ export default class QuestionSpinner extends BoundComponent {
     }
 
     return (
-      <div class={className}>{state === 'spinning' && 'I AM SPINNING'}</div>
+      <div class={className}>{state === 'spinning' && 'Я ВРАЩАЮСЬ'}</div>
     );
   }
 }

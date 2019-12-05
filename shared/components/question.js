@@ -130,7 +130,7 @@ export default class Question extends BoundComponent {
               'question__selection-instructions'
           }>
             {
-              multiple ? 'Select all that apply' : 'Select one'
+              multiple ? 'Выберите все подходящие варианты ответа' : 'Выберите один вариант ответа'
             }
           </div>
         }
@@ -179,12 +179,12 @@ export default class Question extends BoundComponent {
                       (submittedAnswersThisSession && !closed) ?
                         'question__submitted-answer question__submitted-answer--success' :
                         'question__submitted-answer'
-                    }>Answer submitted</div>
+                    }>Ответ отправлен</div>
                     <button disabled={closed || spinnerState || !hasAnswer} class={
                       spinnerState ?
                         'question__submit question__submit--pending' :
                         'question__submit'
-                    }>Submit</button>
+                    }>Отправить</button>
                   </div>
                 </div>
               }
